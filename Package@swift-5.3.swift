@@ -22,7 +22,7 @@ let package = Package(
 //        ),
         .binaryTarget(
             name: "LAME",
-            url: "https://github.com/wxxsw/LAME-xcframework/releases/download/3.100.2/LAME.xcframework.zip",
+            url: "https://github.com/wxxsw/LAME/releases/download/3.100.2/LAME.xcframework.zip",
             checksum: "d1c8c0a521f008a7fce00bf9e723f5cb054043f2eac7f5c233f2017eee29e29a"
         )
     ]
