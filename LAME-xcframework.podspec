@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/BB9z/LAME-xcframework"
   s.license      = { :type => "LGPL", :file => "LICENSE" }
   s.author       = 'BB9z'
-  s.source       = { :http => "https://github.com/wxxsw/LAME-xcframework/releases/download/3.100.2/LAME.framework.zip" }
+  s.source       = { :http => "https://github.com/wxxsw/LAME/releases/download/3.100.2/LAME.xcframework.zip" }
 
   s.ios.deployment_target  = '12.0'
   s.osx.deployment_target  = '10.13'
