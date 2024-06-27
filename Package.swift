@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "LAME",
-    platforms: [.iOS(.v9), .macOS(.v10_10), .tvOS(.v9), .watchOS(.v2)],
+    platforms: [.iOS(.v14), .macOS(.v10_10), .tvOS(.v9), .watchOS(.v2)],
     products: [
         .library(name: "LAME", targets: ["LAME"])
     ],
@@ -21,7 +21,7 @@ let package = Package(
        .binaryTarget(
            name: "LAME",
            url: "https://github.com/wxxsw/LAME/releases/download/3.100.0/LAME.xcframework.zip",
-           checksum: "1f54443617706dd00b21ac66610a71dc0e2fb6d23254ed478f36b2b5ccd5da80"
+           checksum: "a405fe9c32316218a8e8d298e0641da8a67e9a2151963c87e8effd8e90f30b77"
        )
     ]
 )
